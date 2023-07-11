@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>電子簽名</title>
+  <style>
+    #signatureCanvas {
+      border: 1px solid #000;
+    }
+    #clearBtn {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>電子簽名</h1>
+
+  <canvas id="signatureCanvas" width="400" height="200"></canvas>
+  <br>
+  <button id="submitBtn">提交</button>
+  <button id="clearBtn">清除</button>
+
+  <script>
+    window.addEventListener('load', () => {
+      // 獲取 canvas 元素
+      const canvas = document.getElementById('signatureCanvas');
+      // 獲取 2D 渲染上下文
+      const ctx = canvas.getContext('2d');
+      // 設定繪製起始狀態
+      let isDrawing = false;
+      let lastX = 0;
+      let lastY = 0;
+
+      // 開始繪製函式，設定 isDrawing 為 true，並記錄滑鼠位置
+      function startDrawing(e) {
+        isDrawing = true;
+        [lastX, lastY] = [e.offsetX, e.offsetY];
+      }
+
+      // 繪製函式，如果 isDrawing 為 true，則根據滑鼠位置繪製線條
+      function draw(e) {
+        if (!isDrawing) return;
+        ctx.beginPath();
+        ctx.moveTo(lastX, lastY);
+        ctx.lineTo(e.offsetX, e.offsetY);
+        ctx.stroke();
+        [lastX, lastY] = [e.offsetX, e.offsetY];
+      }
+
+      // 停止繪製函式，設定 isDrawing 為 false
+      function stopDrawing() {
+        isDrawing = false;
+      }
+
+      // 清除 canvas 的函式，使用 clearRect() 方法清除整個畫布
+      function clearCanvas() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+      }
+
+      // 為 canvas 元素添加滑鼠事件監聽器
+      canvas.addEventListener('mousedown', startDrawing);
+      canvas.addEventListener('mousemove', draw);
+      canvas.addEventListener('mouseup', stopDrawing);
+      canvas.addEventListener('mouseout', stopDrawing);
+
+      // 提交按鈕的點擊事件處理函式，將簽名轉換為圖像數據並顯示在控制台
+      const submitBtn = document.getElementById('submitBtn');
+      submitBtn.addEventListener('click', () => {
+        const imageDataURL = canvas.toDataURL();
+        // 在此處將圖像數據提交給後端或進行其他處理
+        console.log('提交簽名:', imageDataURL);
+      });
+
+      // 清除按鈕的點擊事件處理函式，調用 clearCanvas() 函式清除簽名
+      const clearBtn = document.getElementById('clearBtn');
+      clearBtn.addEventListener('click', clearCanvas);
+    });
+  </script>
+</body>
+</html>

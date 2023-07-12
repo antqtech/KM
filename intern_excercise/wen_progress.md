@@ -19,3 +19,17 @@
  
  <h1>7/13</h1>
  
+ <ul>
+<li>HTML Favicon</li>
+<li>HTML Page Title</li>
+<li>HTML Tables</li>
+  <ol>
+  <li>HTML Table Borders</li>
+  <li>HTML Table Sizes</li>
+   </ol> 
+<li>HTML Favicon</li>
+<li>HTML Favicon</li>
+<li>HTML Favicon</li>
+<li>HTML Favicon</li>
+<li>HTML Favicon</li>
+ </ul>

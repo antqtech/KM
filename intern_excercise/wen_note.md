@@ -81,3 +81,30 @@
   <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
   <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.htm">
   </map>
+
+
+ <!---HTML Favicon--->
+ 用在網站名稱旁邊的小圖示icon
+  <head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+
+ <!---HTML table--->
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>

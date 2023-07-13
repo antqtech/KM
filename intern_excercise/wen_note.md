@@ -108,3 +108,65 @@
     <td>Mexico</td>
   </tr>
 </table>
+
+ <!---HTML table 的標題--->
+<caption>Monthly savings</caption>
+
+
+ <!---HTML table style 格子的長寬高--->
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+</style>
+</head>
+<body>
+
+
+<!---HTML Table Colspan & Rowspan-->
+占用框框
+ <th colspan="2">Name</th>
+  <th rowspan="2">Phone</th>
+
+  tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+ 
+
+
+<!--HTML Lists-->
+//點點
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul> 
+//數字
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> 
+//類似tab功能
+
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+
+
+<!--HTML iframe-->
+//可以輸入name，類似插入另一個網站
+<iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>

@@ -20,10 +20,28 @@
  <h1>7/13</h1>
  
  <ul>
-<li>HTML Favicon</li>
-<li>HTML Page Title</li>
-<li>HTML Tables</li>
+  <li>HTML Favicon</li>
+  <li>HTML Page Title</li>
+  <li>HTML Tables</li>
+    <ol style="list-style-type:square;">
+    <li>HTML Table Borders</li>
+    <li>HTML Table Sizes</li>
+    <li>HTML Table Headers</li>
+    <li>HTML Table Colspan & Rowspan</li>
+    <li> HTML Table Styling</li>
+    <li>HTML Table Colgroup</li>
+    </ol> 
+  <li>HTML Lists</li>
+    <ol  type="1" start="0">
+    <li>HTML Unordered Lists</li>
+    <li>HTML Ordered Lists</li>
+    <li>HTML Unordered Lists</li>
+    <li>HTML Other Lists</li>
+      </ol>
+  <li>HTML Block and Inline Elements</li>
+  inline elements
   <ol>
+<<<<<<< HEAD
   <li>HTML Table Borders</li>
   <li>HTML Table Sizes</li>
    </ol> 
@@ -33,3 +51,27 @@
 <li>HTML Favicon</li>
 
  </ul>
+=======
+    <li>div</li>
+    <li>span</li>
+  </ol>
+  
+  <li>HTML class Attribute</li>
+    <p style=color:gray >有js的看不太懂</p>
+  <li>HTML id Attribute</li>
+    <p>id 只能用一個 class可以有很多個</p>
+  <li>HTML Iframes</li>
+
+  <p>   
+  <iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+  <p><a href="https://ithelp.ithome.com.tw/articles/10259782" target="iframe_a" >按一下iframe會有變化變</a></p>            
+  </p>
+
+ </ul>
+
+
+ <h1>714</h1>
+  <ul>
+  <li> HTML JavaScript</li>
+  </ul>

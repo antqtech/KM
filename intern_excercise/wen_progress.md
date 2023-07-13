@@ -31,5 +31,5 @@
 <li>HTML Favicon</li>
 <li>HTML Favicon</li>
 <li>HTML Favicon</li>
-<li>HTML Favicon</li>
+
  </ul>

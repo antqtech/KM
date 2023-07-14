@@ -72,6 +72,38 @@
 
 
  <h1>714</h1>
-  <ul>
-  <li> HTML JavaScript</li>
-  </ul>
+<ul>
+<li> HTML JavaScript</li>'
+<li>HTML File Paths</li>
+<li> HTML - The Head Element  </li>
+  <ol>
+    <li>title</li>
+    <li>style</li>
+    <li>link</li>
+    <li>meta</li>
+    <li>script</li>
+    <li>base</li>
+  </ol>
+
+
+<li>flex</li>
+<ol>
+<li>flex-start: 元素和容器的左端對齊。</li>
+<li>  flex-end: 元素和容器的右端對齊。 </li>
+<li>  center: 元素在容器裏居中。 </li>
+<li>  space-between: 元素之間保持相等的距離。 </li>
+<li>  space-around: 元素周圍保持相等的距離。 </li>
+</ol>
+
+
+
+<li >align-items</li>
+
+
+<ol>flex-start: 元素與容器的頂部對齊。</ol>
+<ol>flex-end: 元素與容器的底部對齊。</ol>
+<ol>center: 元素縱向居中。</ol>
+<ol>baseline: 元素在容器的基線位置顯示。</ol>
+<ol>stretch: 元素被拉伸以填滿整個容器。</ol>
+
+

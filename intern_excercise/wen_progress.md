@@ -83,7 +83,9 @@
     <li>meta</li>
     <li>script</li>
     <li>base</li>
+    <p style=color:gray>比a還要優先，寫head</p>
   </ol>
+  <br>
 
 
 <li>flex</li>
@@ -106,4 +108,68 @@
 <ol>baseline: 元素在容器的基線位置顯示。</ol>
 <ol>stretch: 元素被拉伸以填滿整個容器。</ol>
 
+<li>align-self</li>
+<p>有相同的意思，但是是單指某個物件</p>
+<p style=color:chocolate>
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+<br>
+.yellow {
+align-self: flex-end;
+}
+</p>
 
+<h1>715</h1>
+
+<li >flex-direction</li>
+
+<ol  type="1" start="1">
+  <li>row: 元素擺放的方向和文字方向一致。</li>
+  <li>row-reverse: 元素擺放的方向和文字的方向相反。</li>
+  <li>column: 元素從上放到下。</li>
+  <li>column-reverse: 元素從下放到上</li>
+</ol>
+<li>order</li>
+<p style=color:chocolate>
+#pond {
+  display: flex;
+}
+<br>
+.yellow {
+order: 1;
+}
+</p>
+
+<li>flex-wrap</li>
+<ol>
+
+<li>nowrap: 所有的元素都在一行。</li>
+<li>wrap: 元素自動換成多行。</li>
+<li>wrap-reverse: 元素自動換成逆序的多行。</li>
+</ol>
+
+<li>
+flex-direction和flex-wrap兩個屬性經常會一起使用，所以有縮寫屬性flex-flow
+<p style=color:chocolate>
+#pond {
+  display: flex;
+flex-flow: column wrap;
+}
+</p>
+</li>
+
+<li>align-content</li>
+<p style=color:chocolate>決定行與行之間隔多遠</p>
+
+<ol  style="list-style-type:nember;">
+
+  <li>flex-start: 多行都集中在頂部。</li>
+  <li>flex-end: 多行都集中在底部。</li>
+  <li>center: 多行居中。</li>
+  <li>space-between: 行與行之間保持相等距離。</li>
+  <li>space-around: 每行的周圍保持相等距離。</li>
+  <li>stretch: 每一行都被拉伸以填滿容器。</li>
+
+</ol>

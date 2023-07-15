@@ -173,3 +173,12 @@ flex-flow: column wrap;
   <li>stretch: 每一行都被拉伸以填滿容器。</li>
 
 </ol>
+
+
+<h1>716</h1>
+
+<h2>git指令</h2>
+  <li>上傳程式到github</li>
+  <li>git reset</li>
+  <li>git checkout</li>
+  <li>git pull</li>

@@ -182,3 +182,19 @@ flex-flow: column wrap;
   <li>git reset</li>
   <li>git checkout</li>
   <li>git pull</li>
+  <li>git branch</li>
+
+<h2>git指令</h2>
+
+<li>HTML Computer Code Elements</li>
+
+  <ol>
+    <li>kbd element defines keyboard input  </li>
+    <li>samp element defines sample output from a computer program</li>
+    <li>code element defines a piece of computer code</li>
+    <li>var element defines a variable in programming or in a mathematical expression</li>
+    <li>pre element defines preformatted text</li>
+  </ol>  
+
+<li>HTML Responsive Web Design</li>
+  

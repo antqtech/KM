@@ -1,0 +1,147 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site1.master.vb" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <input type="checkbox" name="收合式選單" id="side-menu-switch">
+
+        <div class="side-menu">
+            <nav>
+                <a href="#"><i class="tou fab fa-affiliatetheme"></i>鐵人賽</a>
+                <a href="#"><i class="tou fab fa-alipay"></i>暴力班</a>
+                <a href="#"><i class="tou fas fa-ambulance"></i>RWD醬子</a>
+                <a href="#"><i class="tou fas fa-american-sign-language-interpreting"></i>金魚網頁</a>
+                <a href="#"><i class="tou fab fa-angellist"></i>金魚切版</a>
+            </nav>
+            <label for="side-menu-switch"><i class="fas fa-chevron-right"></i></label>
+        </div>
+        <asp:ContentPlaceHolder ID="Site1" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        form {
+            height: 100%;
+        }
+
+        .side-menu {
+            width: 300px;
+            height: 100%;
+            padding: 50px 0;
+            box-sizing: border-box;
+            background: linear-gradient(45deg, #3381b0,#c2196c);
+            box-shadow: 5px 0px 10px hsla(240, 50%, 20%, .6);
+            position: absolute;
+            left: 0;
+            transform: translateX(-100%);
+            transition: .3s;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .side-menu label {
+            position: absolute;
+            width: 40px;
+            height: 80px;
+            background: #000;
+            color: #fff;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            right: -40px;
+            line-height: 80px;
+            text-align: center;
+            border-radius: 0 10px 10px 0;
+        }
+
+        #side-menu-switch {
+            position: absolute;
+            z-index: -1;
+            opacity: 0;
+        }
+
+            #side-menu-switch:checked + .side-menu {
+                transform: translateX(0);
+            }
+
+                #side-menu-switch:checked + .side-menu label {
+                    transform: scaleX(-1)
+                }
+
+
+
+
+        .side-menu form {
+            display: flex;
+            margin: 0 10px 50px;
+            border-radius: 100px;
+            border: 1px solid rgba(255, 255, 255, .4);
+        }
+
+        .side-menu input, .side-menu button {
+            border: none;
+            padding: 5px 10px;
+            background-color: transparent;
+            color: #fff;
+        }
+
+            .side-menu input:focus, .side-menu button:focus {
+                outline: none;
+            }
+
+            .side-menu input::placeholder {
+                color: #fff;
+            }
+
+        .side-menu input {
+            width: 230px;
+        }
+
+        .side-menu button {
+            width: 50px;
+        }
+
+        nav a {
+            display: block;
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+            position: relative;
+        }
+            /* 若設定一般border會把整塊貼滿，不好看 */
+            nav a + a::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 10px;
+                left: 10px;
+                border-top: 1px solid rgba(255, 255, 255, .4);
+            }
+
+            nav a .tou {
+                transform: scale(0);
+                transition: .3s;
+            }
+
+            nav a:hover .tou {
+                margin-right: 0em;
+                transform: scale(1);
+            }
+    </style>
+</body>
+</html>

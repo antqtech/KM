@@ -1,0 +1,87 @@
+section {
+    background-color: white;
+
+}
+
+.boxcontainer {
+    display: flex;
+    flex-direction: row;
+    /* 水平排列元素 */
+    justify-content: center;
+    /* 将按钮水平居中对齐 */
+    align-items: center;
+    /* 将按钮垂直居中对齐 */
+    justify-content: space-around;
+    /* 元素之间均匀分布 */
+    margin-top: 50px;
+    /* 添加上边的间距 */
+    margin-bottom: 20px;
+    /* 添加下边的间距 */
+}
+
+.box1,
+.box2 {
+    width: 300px;
+    /* 设置盒子的宽度 */
+    height: 200px;
+    /* 设置盒子的高度 */
+
+}
+
+.box1 {
+    margin-right: -550px;
+    /* 添加上边的间距 */
+}
+
+
+.box2 {
+    margin-left: -50px;
+    /* 添加上边的间距 */
+
+}
+
+p {
+    color: #9a9a9a;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    /* 将按钮水平居中对齐 */
+    align-items: center;
+    /* 将按钮垂直居中对齐 */
+    color: #6cc091;
+    border: 2px solid #6cc091;
+    padding: 10px;
+    width: 200px;
+    /* 设置按钮的宽度 */
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    margin: 0 auto;
+    /* 将按钮居中 */
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #6cc091;
+    color: white;
+}
+
+h3,
+p,
+img {
+    text-align: center;
+    justify-content: center;
+    /* 将按钮水平居中对齐 */
+    align-items: center;
+    /* 元素垂直居中对齐 */
+    display: block;
+    margin: auto;
+}
+
+img{
+
+    border-radius: 30px;
+
+}

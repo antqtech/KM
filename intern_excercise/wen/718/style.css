@@ -1,16 +1,20 @@
 body {
-    background-color: #F5F5F5; /* 背景设为浅灰色 */
-    height: 100vh; /* 設定明確的高度 */
-    margin: 0; /* 移除預設的頁面邊距 */
+    background-color: #F5F5F5;
+    /* 背景设为浅灰色 */
+    height: 100vh;
+    /* 設定明確的高度 */
+    margin: 0;
+    /* 移除預設的頁面邊距 */
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    height: 100%; /* 使用父元素的高度 */
- 
- 
+    height: 100%;
+    /* 使用父元素的高度 */
+
+
 }
 
 hr {
@@ -23,14 +27,21 @@ hr {
 
 .contain {
     text-align: center;
-            margin-left: 20px; /* 添加左邊的間距 */
-           
-                        margin-top: 20px; /* 添加左邊的間距 */
-                         margin-bottom: 20px; /* 添加左邊的間距 */
-    width: 60%; /* 調整寬度 */
-    padding: 20px; /* 留出上下左右的空間 */
-    background-color: #FFF; /* 設置白色背景顏色 */
+    margin-left: 20px;
+    /* 添加左邊的間距 */
+
+    margin-top: 20px;
+    /* 添加左邊的間距 */
+    margin-bottom: 20px;
+    /* 添加左邊的間距 */
+    width: 60%;
+    /* 調整寬度 */
+    padding: 20px;
+    /* 留出上下左右的空間 */
+    background-color: #FFF;
+    /* 設置白色背景顏色 */
 }
+
 /*
 .contain img {
     width: 100px;
@@ -40,18 +51,25 @@ hr {
 
 .contain-1 {
     text-align: center;
-        margin-left: 20px; /* 添加左邊的間距 */
-                margin-right: 20px; /* 添加左邊的間距 */
-                        margin-top: 20px; /* 添加左邊的間距 */
-                         margin-bottom: 20px; /* 添加左邊的間距 */
-    width: 60%; /* 調整寬度 */
-    padding: 20px; /* 留出上下左右的空間 */
-    background-color: #FFF; /* 設置白色背景顏色 */
+    margin-left: 20px;
+    /* 添加左邊的間距 */
+    margin-right: 20px;
+    /* 添加左邊的間距 */
+    margin-top: 20px;
+    /* 添加左邊的間距 */
+    margin-bottom: 20px;
+    /* 添加左邊的間距 */
+    width: 60%;
+    /* 調整寬度 */
+    padding: 20px;
+    /* 留出上下左右的空間 */
+    background-color: #FFF;
+    /* 設置白色背景顏色 */
 }
 
 .contain-1 img {
     height: 100%;
-   /* width: 500px;
+    /* width: 500px;
     height: 100px;*/
 
 
@@ -68,20 +86,26 @@ p {
 }
 
 .align-center a {
-    color: #000; /* 設定文字顏色為黑色 */
+    color: #000;
+    /* 設定文字顏色為黑色 */
     text-decoration: none;
     display: inline-block;
-    border: 5px solid #F5F5F5; /* 加入灰色框框 */
-    padding: 5px 10px; /* 調整內邊距 */
-    line-height: 1; /* 讓行高與文字高度一致 */
+    border: 5px solid #F5F5F5;
+    /* 加入灰色框框 */
+    padding: 5px 10px;
+    /* 調整內邊距 */
+    line-height: 1;
+    /* 讓行高與文字高度一致 */
 }
 
 
 .align-center a {
-    color: #000; /* 設定文字顏色為黑色 */
+    color: #000;
+    /* 設定文字顏色為黑色 */
     text-decoration: none;
 }
 
 .align-center a:hover {
-    color: #333; /* 選擇時文字顏色變深 */
+    color: #333;
+    /* 選擇時文字顏色變深 */
 }

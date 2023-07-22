@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    margin: 0 auto; /* 讓容器水平置中 */
+    max-width: 1920px;
+    background-color: #f6f6f4;
+    align-items: center;        /* 讓東西水平置中 */
+    text-align: center;         /* 讓文字水平置中 */
+}
+
+.container > div {
+    margin:0px 20px; /* 这里調整間距大小 */
+  }  
+
+p {
+
+    padding: 0px 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+
+h2 {
+    font-weight: 400;
+    padding:0px 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}

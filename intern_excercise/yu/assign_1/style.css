@@ -10,26 +10,49 @@ p {
 
 body {
     margin: 0px;
-    background-color: #241178;
+    background-color: rgb(13, 15, 74);
     font-family: 'Roboto', sans-serif; /* 使用Roboto字體作為預設字體 */
+    font-weight: 600;
 }
 
 /* 第一部份 */
+.home > p {
+    font-size: 23px;
+    font-weight: 1200;
+}
 .section-0 {
     display: flex;
     margin: 0 auto; /* 讓容器水平置中 */
     max-width: 1920px;
-    width: 90%;
+    width: 80%;
     border: 1px solid black;
+    height: 80px;
+    align-items: center; /* 垂直居中 */
 }
 
 .section-0-choose{
     display: flex;
     margin: 0 auto; /* 讓容器水平置中 */
-    max-width: 1920px;
+    /* max-width: 1920px; */
     width: 40%;
     border: 1px solid black; 
     justify-content: space-between;
+    font-size: 20px;
+}
+
+.check{
+    display: flex;
+    background-color: #808080;
+    border: 1px solid black;
+    align-items: center; /* 垂直居中 */
+    /* margin-left: 18%; */
+    height: fit-content;
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+
+.check > p{
+    color: lightskyblue;
 }
 
 /* 第二部分 */
@@ -42,15 +65,42 @@ body {
 
 .intro {
     flex:1 ;
+    font-size: 25px;
     /* background-color: antiquewhite; */
 }
+.intro > h6 {
+    color: lightskyblue;
+    margin-bottom: 10px;
+}
+.intro > h1 {
+    color: white;
+    margin: 0;
+}
+.intro > h2 {
+    margin: 0;
+    color: skyblue;
+}
+.intro > p {
+    margin-top: 3%;
+    font-size: 16px;
+    letter-spacing: 2px; /* 將字根字的間隔設置為2像素 */
+}
 .pic {
-    background-color: aquamarine;
+    display: flex;
+    height: 470px;
+    align-items: center;
+    
+}
+
+.pic > img {
+    height: 90%;
+    width: auto;
+    border-radius: 35px;
 }
 
 .section-1-choice{
     display: flex;
-    margin-top: 10%;
+    margin-top: 3%;
     /* padding-left: 3%; */
 }
 
@@ -63,16 +113,18 @@ body {
     height: fit-content;
     padding: 15px 20px;
     border-radius: 12px;
+    font-size: 18px;
 }
 .help{
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
     display: flex;
-    border: 1px solid black;
+    border: 1px solid lightskyblue;
     align-items: center; /* 垂直居中 */
     margin-left: 2%;
     height: fit-content;
     padding: 15px 20px;
     border-radius: 12px;
+    font-size: 18px;
 }
 
 /* 2.5部分 */
@@ -80,11 +132,10 @@ body {
     display: flex;
     margin: 0 auto; /* 讓容器水平置中 */
     max-width: 1920px;
-    width: 90%;
+    width: 80%;
     border: 1px solid black;
     align-items: center; /* 垂直居中 */
-    width: 90%;
-    margin: 0 auto;
+    /* margin-top: 5%; */
 }
 .time > p {
     margin-left: 1%;
@@ -95,12 +146,15 @@ body {
 .section-2 {
     display: flex;
     margin: 0 auto; /* 讓容器水平置中 */
+    margin-top: 20px;
     max-width: 1920px;
-    width: 90%;
+    width: 80%;
     border: 1px solid black;
     height: 100px;
     background-color: #808080;
+    /* background-color: rgba(13, 15, 74,0.8); */
     align-items: center; /* 垂直居中 */
+    border-radius: 10px;
 }
 
 

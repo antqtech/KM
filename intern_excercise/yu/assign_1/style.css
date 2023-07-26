@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.text {
+    flex: 1;
+  }
+
+p {
+    color: white;
+    margin: 0;
+}
+
+body {
+    margin: 0px;
+    background-color: #241178;
+    font-family: 'Roboto', sans-serif; /* 使用Roboto字體作為預設字體 */
+}
+
+/* 第一部份 */
+.section-0 {
+    display: flex;
+    margin: 0 auto; /* 讓容器水平置中 */
+    max-width: 1920px;
+    width: 90%;
+    border: 1px solid black;
+}
+
+.section-0-choose{
+    display: flex;
+    margin: 0 auto; /* 讓容器水平置中 */
+    max-width: 1920px;
+    width: 40%;
+    border: 1px solid black; 
+    justify-content: space-between;
+}
+
+/* 第二部分 */
+.section-1{
+    display: flex;
+    margin: 0 auto; /* 讓容器水平置中 */
+    max-width: 1920px;
+    width: 80%;
+}
+
+.intro {
+    flex:1 ;
+    /* background-color: antiquewhite; */
+}
+.pic {
+    background-color: aquamarine;
+}
+
+.section-1-choice{
+    display: flex;
+    margin-top: 10%;
+    /* padding-left: 3%; */
+}
+
+/* choose */
+.get {
+    background-color: lightskyblue;
+    display: flex;
+    border: 1px solid black;
+    align-items: center; /* 垂直居中 */
+    height: fit-content;
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+.help{
+    background-color: lightskyblue;
+    display: flex;
+    border: 1px solid black;
+    align-items: center; /* 垂直居中 */
+    margin-left: 2%;
+    height: fit-content;
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+
+/* 2.5部分 */
+.time{
+    display: flex;
+    margin: 0 auto; /* 讓容器水平置中 */
+    max-width: 1920px;
+    width: 90%;
+    border: 1px solid black;
+    align-items: center; /* 垂直居中 */
+    width: 90%;
+    margin: 0 auto;
+}
+.time > p {
+    margin-left: 1%;
+}
+
+/* 第三部分 */
+
+.section-2 {
+    display: flex;
+    margin: 0 auto; /* 讓容器水平置中 */
+    max-width: 1920px;
+    width: 90%;
+    border: 1px solid black;
+    height: 100px;
+    background-color: #808080;
+    align-items: center; /* 垂直居中 */
+}
+
+
+.section-2-sub{
+    width: 70%;
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+.section-2-text{
+    margin-left: 2%;
+}
+.submit {
+    background-color: lightskyblue;
+    display: flex;
+    border: 1px solid black;
+    align-items: center; /* 垂直居中 */
+    margin-left: 18%;
+    height: fit-content;
+    padding: 15px 20px;
+    border-radius: 12px;
+}
+.loc, .date, .type{
+    display: flex;
+    align-items: center; /* 垂直居中 */
+    width: 30%;
+    margin-left: 5%;
+}  
+  /* 圖片水平置中 */
+.section-2-sub img {
+    margin: 0;
+    width: 51px;
+    height: 50px;
+    
+  }
+
+/*  */

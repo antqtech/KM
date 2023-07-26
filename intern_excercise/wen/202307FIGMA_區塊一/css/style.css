@@ -1,0 +1,555 @@
+body {
+  /*background-color:#0B153C;*/
+  /* #0B153C; */
+}
+
+.desktop-container {
+  width: 100%;
+  height:1440px;
+  background-color: #0B153C; 
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/************1.0********************/
+.desktop-text01 {
+  color: rgba(255, 255, 255, 1);
+
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+  height: auto;
+
+}
+
+.desktop-text02 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  /* Add right margin for spacing */
+}
+
+.desktop-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-sFtart;
+  gap: 25px;
+
+  top: 17px;
+  left: 401px;
+  flex-shrink: 1;
+
+}
+
+
+
+
+.desktop-text03,
+.desktop-text04,
+.desktop-text05,
+.desktop-text06 {
+  color: rgba(255, 255, 255, 0.5);
+  height: auto;
+  font-size: 24px;
+  font-style: Medium;
+
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-weight: 500;
+  margin-right: 25px;
+  /* Add right margin for spacing */
+}
+
+.desktop-frame2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  position: absolute;
+  /* Add absolute positioning */
+  top: -10px;
+  /* Position from the top */
+  right: 0;
+
+  /* Position from the right */
+  margin-top: 25px;
+  margin-right: 60px;
+  /* Add right margin for spacing */
+
+
+}
+.desktop-text10 {        color: rgba(23, 194, 236, 1);
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 32px;
+=
+}
+/************2.0文字********************/
+.desktop-group4 {
+  top: 211px;
+  left: 70px;
+  width: 603px;
+  height: 354px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.desktop-text12 {
+  color: rgba(23, 194, 236, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+
+}
+
+.desktop-text14 {
+  top: 296px;
+  color: rgba(255, 255, 255, 0.699999988079071);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+
+}
+
+.desktop-text19 {
+  top: 69px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+
+}
+
+.desktop-text20 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.desktop-text27 {
+  top: 69px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: ExtraBold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 800;
+}
+
+.desktop-text28 {
+  color: rgba(255, 255, 255, 1);
+}
+
+/****************2.1button**************/
+
+.desktop-group7 {
+  top: 615px;
+  left: 70px;
+  width: 420px;
+  height: 69px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+
+.desktop-GetVaccine {
+  gap: 10px;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  padding: 20px 25px;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-color: rgba(23, 194, 236, 1);
+}
+
+.desktop-text35 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+
+}
+
+.desktop-HelpCentre {
+  gap: 10px;
+  top: 0px;
+  left: 220px;
+  display: flex;
+  padding: 20px 25px;
+  position: absolute;
+  align-items: flex-start;
+  border-color: rgba(23, 194, 236, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20px;
+
+}
+
+.desktop-text37 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+
+}
+
+/*<!--2.2右邊的圖------>*/
+
+.desktop-group222 {
+  top: 210px;
+  left: 797px;
+
+  display: flex;
+  position: absolute;
+  
+
+
+
+}
+
+.unsplashwnsewhmhxho {}
+
+
+
+.doctortakingsafetymeasuresforcorona29969402495209175 {
+  display: flex;
+  top: 234px;
+  left: -30px;
+  padding: 10px 5px;
+  position: absolute;
+
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  
+
+
+}
+
+.coronavirus29969522495219178 {
+  top: 234px;
+
+  display: flex;
+  right: -30px;
+  padding: 10px 5px;
+  position: absolute;
+
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+
+.desktop-group21 {
+  top: 517px;
+left: 0px;
+/*width: 374px;
+height: 100px;*/
+  display: flex;
+  position: absolute;
+  border-radius: 20px;
+  padding: 20px 250px 20px 20px;
+  background-color: rgba(196, 196, 196, 0.20000000298023224);
+
+}
+
+.desktop-group20 {
+
+}
+
+.rectangle9182,.rectangle10183,.rectangle11184{
+
+ 
+  padding: 10px 5px;       
+  border-radius: 20px;
+
+}
+
+
+
+
+.desktop-text55 {
+color: rgba(255, 255, 255, 1);
+
+position: absolute;
+font-size: 24px;
+font-style: Bold;
+text-align: left;
+font-family: Montserrat;
+font-weight: 700;
+}
+.desktop-text57 {
+top: 44px;
+color: rgba(23, 194, 236, 1);
+position: absolute;
+font-size: 24px;
+font-style: Bold;
+text-align: left;
+font-family: Montserrat;
+font-weight: 700;
+
+}
+
+
+/* <!---3.下面的icon-->  */
+.desktop-group16 {
+
+  top: 864px;
+  left: 70px;
+  width: 1299px;
+  height: 220px;
+  display: flex;
+  position: absolute;
+  flex-shrink: 1;
+  align-items: flex-start;
+  padding: 20px 25px;
+  border-radius: 20px;
+  background-color: rgb(79, 90, 93);
+}
+
+/* <!--group11(10+61 41+43)--->*/
+.desktop-group11 {
+
+  top: 40px;
+  left: 70px;
+  width: 300px;
+  height: 58px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  /*background-color: rgb(112, 41, 122);*/
+
+
+}
+
+.desktop-group10 {
+  top: 0px;
+  left: 70px;
+  width: 246.80999755859375px;
+  height: 58px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+
+
+
+}
+
+.desktop-group61 {
+  left: 0px;
+  width: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(196, 196, 196, 0.10000000149011612);
+}
+
+.desktop-text41 {
+
+  color: rgba(255, 255, 255, 0.5);
+  height: auto;
+  font-size: 24px;
+
+  text-align: left;
+  font-family: Montserrat;
+
+
+
+}
+
+.desktop-text43 {
+  color: rgb(255, 255, 255, 1);
+  height: auto;
+  font-size: 24px;
+
+  text-align: left;
+  font-family: Montserrat;
+
+  position: absolute;
+  /* Change to absolute positioning */
+  top: 30px;
+
+}
+
+
+/* <!--group12(101+71  text45+47)--->*/
+
+.desktop-group12 {
+
+  top: 40px;
+  left: 366px;
+  width: 300px;
+  height: 58px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  /*   background-color: red;*/
+
+
+}
+
+.desktop-group101 {
+  top: 0px;
+  left: 70px;
+  width: 246.80999755859375px;
+  height: 58px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+  /* background-color:paleturquoise;*/
+
+
+
+}
+
+.desktop-group71 {
+  left: 0px;
+  width: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(196, 196, 196, 0.10000000149011612);
+}
+
+.desktop-text45 {
+
+  color: rgba(255, 255, 255, 0.5);
+  height: auto;
+  font-size: 24px;
+  text-align: left;
+  font-family: Montserrat;
+
+}
+
+.desktop-text47 {
+  color: rgb(255, 255, 255, 1);
+  height: auto;
+  font-size: 24px;
+
+  text-align: left;
+  font-family: Montserrat;
+
+  position: absolute;
+  top: 30px;
+
+}
+
+
+/* <!--group13(102+9 text49 51)--->*/
+.desktop-group13 {
+
+  top: 40px;
+  left: 707.4553833007812px;
+  width: 232px;
+  height: 58px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+
+
+
+}
+
+.desktop-group102 {
+  top: 0px;
+  left: 70px;
+  width: 264px;
+  height: 58px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+  /* background-color:paleturquoise;*/
+
+
+
+}
+
+.desktop-group9 {
+
+  left: 0px;
+  width: 33px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(196, 196, 196, 0.10000000149011612);
+}
+
+.desktop-text49 {
+
+  color: rgba(255, 255, 255, 0.5);
+  height: auto;
+  font-size: 24px;
+  text-align: left;
+  font-family: Montserrat;
+}
+
+.desktop-text51 {
+  top: 29px;
+  color: rgb(255, 255, 255, 1);
+  height: auto;
+  font-size: 24px;
+  text-align: left;
+  font-family: Montserrat;
+
+  position: absolute;
+
+}
+
+/*<!-----------3.3desktop-Submit text53------->*/
+.desktop-Submit {
+  gap: 10px;
+  top: 40px;
+  left: 1117px;
+  display: flex;
+  padding: 20px 25px;
+  position: absolute;
+  align-items: flex-start;
+  background-color: rgba(23, 194, 236, 1);
+
+  border-radius: 20px;
+
+}
+
+.desktop-text53 {
+  color: rgb(255, 255, 255);
+  height: auto;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+}

@@ -43,4 +43,10 @@
     <li>
     @media
     </li>
+    <li>
+    真正頁面仔入才會更新<br>
+    If Not Me.Page.IsPostBack Then<br>
+    code在這<br>
+    End If
+    </li>
 </ul>

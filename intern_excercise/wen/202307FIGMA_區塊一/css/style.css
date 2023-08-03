@@ -5,43 +5,53 @@ body {
 
 .desktop-container {
   width: 100%;
-  height:1440px;
-  background-color: #0B153C; 
+  height: 1440px;
+  background-color: #0B153C;
   display: flex;
   flex-direction: column;
-  
+
 }
 
 /************1.0********************/
 .desktop-text01 {
   color: rgba(255, 255, 255, 1);
-
   font-size: 32px;
   font-style: Bold;
-  text-align: left;
   font-family: Montserrat;
   font-weight: 700;
-  height: auto;
-
 }
 
 .desktop-text02 {
   display: flex;
+  /*第三種方法*/
+  /* width: 400px;
   flex-direction: row;
-  justify-content: space-between;
-
+  justify-content: space-between; */
+  /*第三種方法*/
+  /* wilson add*/
+  /* gap: 10px; */
+  /* wilson add*/
   /* Add right margin for spacing */
 }
 
+/* wilson add*/
+.text-margin {
+  /* margin: 0 10px; */
+}
+
+/* wilson add*/
 .desktop-frame1 {
   display: flex;
   flex-direction: row;
-  align-items: flex-sFtart;
-  gap: 25px;
+  align-items: center;
+  justify-content: space-around;
+  /* align-items: flex-start; */
+  /* gap: 25px;
 
   top: 17px;
   left: 401px;
   flex-shrink: 1;
+   */
 
 }
 
@@ -56,37 +66,65 @@ body {
   height: auto;
   font-size: 24px;
   font-style: Medium;
-
+  /* margin-left: 280px;*/
   justify-content: space-between;
   font-family: Montserrat;
   font-weight: 500;
-  margin-right: 25px;
+  /* margin-right: 80px;*/
   /* Add right margin for spacing */
+
+
 }
+
+/* .desktop-text03 {
+  position: absolute;
+  left: 400px;
+
+}
+
+.desktop-text04 {
+  position: absolute;
+  left: 600px;
+
+}
+
+.desktop-text05 {
+
+  position: absolute;
+  left: 800px;
+}
+
+.desktop-text06 {
+  position: absolute;
+  left: 1000px;
+
+} */
 
 .desktop-frame2 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  position: absolute;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: flex-end; */
+  /* position: absolute; */
   /* Add absolute positioning */
-  top: -10px;
+  /* top: -10px; */
   /* Position from the top */
-  right: 0;
+  /* right: 0; */
 
   /* Position from the right */
-  margin-top: 25px;
-  margin-right: 60px;
+  /* margin-top: 25px; */
+  /* margin-right: 60px; */
   /* Add right margin for spacing */
 
 
 }
-.desktop-text10 {        color: rgba(23, 194, 236, 1);
+
+.desktop-text10 {
+  color: rgba(23, 194, 236, 1);
   font-style: Bold;
   font-weight: 700;
   font-size: 32px;
-=
 }
+
 /************2.0文字********************/
 .desktop-group4 {
   top: 211px;
@@ -227,7 +265,7 @@ body {
 
   display: flex;
   position: absolute;
-  
+
 
 
 
@@ -246,7 +284,7 @@ body {
 
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
-  
+
 
 
 }
@@ -267,8 +305,8 @@ body {
 
 .desktop-group21 {
   top: 517px;
-left: 0px;
-/*width: 374px;
+  left: 0px;
+  /*width: 374px;
 height: 100px;*/
   display: flex;
   position: absolute;
@@ -278,14 +316,14 @@ height: 100px;*/
 
 }
 
-.desktop-group20 {
+.desktop-group20 {}
 
-}
+.rectangle9182,
+.rectangle10183,
+.rectangle11184 {
 
-.rectangle9182,.rectangle10183,.rectangle11184{
 
- 
-  padding: 10px 5px;       
+  padding: 10px 5px;
   border-radius: 20px;
 
 }
@@ -294,24 +332,25 @@ height: 100px;*/
 
 
 .desktop-text55 {
-color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
 
-position: absolute;
-font-size: 24px;
-font-style: Bold;
-text-align: left;
-font-family: Montserrat;
-font-weight: 700;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
 }
+
 .desktop-text57 {
-top: 44px;
-color: rgba(23, 194, 236, 1);
-position: absolute;
-font-size: 24px;
-font-style: Bold;
-text-align: left;
-font-family: Montserrat;
-font-weight: 700;
+  top: 44px;
+  color: rgba(23, 194, 236, 1);
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
 
 }
 
@@ -322,7 +361,7 @@ font-weight: 700;
   top: 864px;
   left: 70px;
   width: 1299px;
-  height: 220px;
+  height: 110px;
   display: flex;
   position: absolute;
   flex-shrink: 1;

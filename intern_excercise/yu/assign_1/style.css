@@ -204,7 +204,16 @@ body {
     
   }
 
-/*  */
+/* 2.5的部分 */
+.section-2-5 {
+    display: flex;
+    margin: 0 auto; /* 讓容器水平置中 */
+    margin-top: 20px;
+    max-width: 1920px;
+    width: 80%;
+}
+
+
 
 /* 小於等於 375px 的寬度尺寸 */
 @media screen and (max-width: 400px) {

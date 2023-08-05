@@ -1,132 +1,126 @@
-body {
-  /*background-color:#0B153C;*/
-  /* #0B153C; */
-}
+overflow-x: hidden;
 
-.desktop-container {
+.group82-container {
   width: 100%;
-  height:1440px;
-  background-color: #0B153C; 
   display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
   flex-direction: column;
-  
 }
 
-/************1.0********************/
-.desktop-text01 {
-  color: rgba(255, 255, 255, 1);
 
-  font-size: 32px;
+
+
+.group82-group82 {
+  width: 100%;
+  height: 1440px;
+
+
+}
+
+
+.group82 {
+  width: 100%;
+  /* 將 width 修改為 max-width，確保在 1440px 以內正確顯示 */
+  height: 150px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 1;
+  background-color: white;
+  justify-content: space-between;
+
+
+}
+
+
+.group82-box {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  flex-direction: column;
+  width: 100%;
+  height: 466px;
+  background-color: #0b153c;
+  overflow-x: hidden;
+}
+
+
+
+
+.group82-results {
+  top: 200px;
+
+
+  width: 1400px;
+  height: 340px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 20px;
+  background: rgba(196, 196, 196, 0.10);
+}
+
+
+.group82-group29 {
+  width: 100%;
+
+
+  height: 80px;
+
+
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(196, 196, 196, 0.05000000074505806);
+  border-radius: 20px 0px;
+
+
+
+
+}
+
+
+.group82-text {
+  top: 36px;
+  left: 93px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
   font-style: Bold;
   text-align: left;
   font-family: Montserrat;
   font-weight: 700;
-  height: auto;
-  position: absolute;
-  left: 40px;
-
-}
-
-.desktop-text02 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  /* Add right margin for spacing */
-}
-
-.desktop-frame1 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 25px;
-
-  top: 17px;
-  left: 401px;
-  flex-shrink: 1;
-  
-
 }
 
 
-
-
-.desktop-text03,
-.desktop-text04,
-.desktop-text05,
-.desktop-text06 {
-  color: rgba(255, 255, 255, 0.5);
-  height: auto;
-  font-size: 24px;
-  font-style: Medium;
- /* margin-left: 280px;*/
-  justify-content: space-between;
-  font-family: Montserrat;
-  font-weight: 500;
- /* margin-right: 80px;*/
-  /* Add right margin for spacing */
-
-
-}
-
-.desktop-text03{
-  position: absolute;
-  left:400px;
-
-}
-.desktop-text04{
-  position: absolute;
-  left: 600px;
-
-}
-.desktop-text05{
-
-  position: absolute;
-  left: 800px;
-
-}
-.desktop-text06{
-  position: absolute;
-  left: 1000px;
-
-}
-
-.desktop-frame2 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  position: absolute;
-  /* Add absolute positioning */
-  top: -10px;
-  /* Position from the top */
-  right: 0;
-
-  /* Position from the right */
-  margin-top: 25px;
-  margin-right: 60px;
-  /* Add right margin for spacing */
-
-
-}
-.desktop-text10 {        color: rgba(23, 194, 236, 1);
-  font-style: Bold;
-  font-weight: 700;
-  font-size: 32px;
-=
-}
-/************2.0文字********************/
-.desktop-group4 {
-  top: 211px;
-  left: 70px;
-  width: 603px;
-  height: 354px;
+.group82-group28 {
+  top: 239px;
+  left: 93px;
+  width: 1280px;
+  height: 80px;
+  border-radius: 20px;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
+  background-color: rgba(196, 196, 196, 0.05000000074505806);
+  justify-content: center;
+
+
 }
 
-.desktop-text12 {
+
+.group82-text02 {
+  top: 20px;
+  /*    left: 174px;
+*/
   color: rgba(23, 194, 236, 1);
   height: auto;
   position: absolute;
@@ -135,448 +129,515 @@ body {
   text-align: left;
   font-family: Montserrat;
   font-weight: 700;
-
 }
 
-.desktop-text14 {
-  top: 296px;
-  color: rgba(255, 255, 255, 0.699999988079071);
-  height: auto;
+
+.group82-group27 {
+  top: 80px;
+  left: 93px;
+  width: 1300px;
+  height: 150px;
+  display: flex;
   position: absolute;
-  font-size: 24px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Montserrat;
-  font-weight: 700;
-
+  align-items: flex-start;
+  flex-shrink: 1;
+  /*
+background-color: rgba(196, 196, 196, 0.05000000074505806)*/
+  ;
 }
 
-.desktop-text19 {
-  top: 69px;
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  position: absolute;
-  font-size: 48px;
-  font-style: ExtraBold;
-  text-align: left;
-  font-family: Montserrat;
-  font-weight: 800;
 
-}
-
-.desktop-text20 {
-  color: rgba(255, 255, 255, 1);
-}
-
-.desktop-text27 {
-  top: 69px;
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  position: absolute;
-  font-size: 48px;
-  font-style: ExtraBold;
-  text-align: left;
-  font-family: Montserrat;
-  font-weight: 800;
-}
-
-.desktop-text28 {
-  color: rgba(255, 255, 255, 1);
-}
-
-/****************2.1button**************/
-
-.desktop-group7 {
-  top: 615px;
-  left: 70px;
-  width: 420px;
+.group82-group25 {
+  top: 15px;
+  left: 0px;
+  width: 450px;
   height: 69px;
   display: flex;
   position: absolute;
   align-items: flex-start;
   flex-shrink: 1;
-}
 
-.desktop-GetVaccine {
-  gap: 10px;
-  top: 0px;
-  left: 0px;
-  display: flex;
+
   padding: 20px 25px;
   position: absolute;
-  align-items: flex-start;
-  border-radius: 20px;
-  background-color: rgba(23, 194, 236, 1);
-}
-
-.desktop-text35 {
-  color: rgba(255, 255, 255, 1);
-  height: auto;
-  font-size: 24px;
-  font-style: Bold;
-  text-align: left;
-  font-family: Montserrat;
-  font-weight: 700;
-
-}
-
-.desktop-HelpCentre {
-  gap: 10px;
-  top: 0px;
-  left: 220px;
-  display: flex;
-  padding: 20px 25px;
-  position: absolute;
-  align-items: flex-start;
   border-color: rgba(23, 194, 236, 1);
   border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
   border-radius: 20px;
+  justify-content: center;
+}
+
+
+.group82-text05 {
+
+
+  top: 50px;
+  left: 25px;
+  color: rgba(23, 194, 236, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+
+.group82-group26 {
+  top: 15px;
+  left: 535px;
+  width: 450px;
+  height: 69px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  padding: 20px 25px;
+  position: absolute;
+  border-color: rgba(23, 194, 236, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+  justify-content: left;
+}
+
+
+.group82-text07 {
+  top: 50px;
+  left: 25px;
+  color: rgba(255, 255, 255, 0.5);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+
+.group82-get-vaccine {
+  top: 35px;
+  left: 1070px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  padding: 20px 25px;
+  position: absolute;
+  border-color: rgba(23, 194, 236, 1);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+
+.group82-text09 {
+  color: rgba(23, 194, 236, 1);
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+
+/******* <!---------part2下面的部分------>***********/
+
+
+/**************<!wht get vaccinated>****************/
+
+
+.group82-whygetvaccinated {
+  top: 615px;
+  position: absolute;
+
+
+  width: 100%;
+
+
+  /* 將 width 修改為 max-width，確保在 1440px 以內正確顯示 */
+  height: 794px;
+
+
+  display: flex;
+  flex-direction: column;
+  background-color: #0b153c;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+
 
 }
 
-.desktop-text37 {
+
+
+
+/********<!-------Magna adipiscing ----->***********/
+.group82-group35 {
+  weight: 537px;
+  height: 72px;
+}
+
+
+
+
+.group82-text11 {
+  top: 57px;
+  left: 830px;
+  color: rgba(255, 255, 255, 0.50);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+
+
+
+
+}
+
+
+
+
+.group82-text18 {
+
+
+  top: 57px;
+  left: 70px;
   color: rgba(255, 255, 255, 1);
   height: auto;
-  font-size: 24px;
+  position: absolute;
+  font-size: 47.9px;
   font-style: Bold;
   text-align: left;
   font-family: Montserrat;
   font-weight: 700;
 
+
 }
 
-/*<!--2.2右邊的圖------>*/
 
-.desktop-group222 {
-  top: 210px;
-  left: 797px;
+/*******<!第一個框框>*************/
+.group82-group34 {}
 
+
+.group82-group33 {
+  top: 215px;
+  left: 70px;
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-radius: 49.896px 149.688px 49.896px 49.896px;
+  background: rgba(196, 196, 196, 0.20);
+  justify-content: center;
+  width: 449.064px;
+  height: 498.961px;
+
+
+}
+
+
+/******img******/
+.group82-group31 {
+  top: 40px;
+  left: 40px;
+  position: absolute;
+  width: 99.792px;
+  height: 99.792px;
+  flex-shrink: 0;
+  border-radius: 29.938px;
+  background: rgba(196, 196, 196, 0.10);
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  /******1不確定要不要加*******/
+
+
+}
+
+
+
+
+.group82-text23 {
+  top: 180px;
+  left: 40px;
+  position: absolute;
+  color: #17C2EC;
+  font-family: Montserrat;
+  font-size: 23.95px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+
+
+
+}
+
+
+.group82-text28 {
+  top: 267.44px;
+  left: 40px;
+  position: absolute;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 17.963px;
+  font-style: normal;
+  font-weight: 500;
+
+
+
+
+
+
+}
+
+
+.group82-group32 {
+  display: flex;
+  top: 399.47px;
+  left: 40px;
+  position: absolute;
+}
+
+
+.group82-text37 {
+
+
+  color: #17C2EC;
+  font-family: Montserrat;
+  font-size: 17.963px;
+  font-style: normal;
+  font-weight: 700;
+
+
+
+
+}
+
+
+.group82-arrowright {
+  left: 151px;
+  position: absolute;
+}
+
+
+
+
+/******  <!---------第二個框框------>********/
+
+
+.group82-group36 {
+  top: 365px;
+  left: 594px;
+  width: 349.2723388671875px;
+  height: 349.2723388671875px;
   display: flex;
   position: absolute;
-  
-
-
-
+  align-items: flex-start;
+  flex-shrink: 1;
 }
 
-.unsplashwnsewhmhxho {}
 
+.group82-group311 {
 
-
-.doctortakingsafetymeasuresforcorona29969402495209175 {
-  display: flex;
-  top: 234px;
-  left: -30px;
-  padding: 10px 5px;
-  position: absolute;
-
-  border-radius: 20px;
-  background-color: rgb(255, 255, 255);
-  
-
-
-}
-
-.coronavirus29969522495219178 {
-  top: 234px;
 
   display: flex;
-  right: -30px;
-  padding: 10px 5px;
-  position: absolute;
-
-  border-radius: 20px;
-  background-color: rgb(255, 255, 255);
+  align-items: flex-start;
+  border-radius: 49.896px;
+  border: 2.994px solid rgba(255, 255, 255, 0.50);
+  justify-content: start;
+  width: 349.272px;
+  height: 349.272px;
+  flex-shrink: 0;
 }
 
 
+.group82-shield1 {
+  width: 48.898px;
+  height: 48.898px;
+  flex-shrink: 0;
+  margin: 20px;
+  position: absolute;
 
-.desktop-group21 {
-  top: 517px;
-left: 0px;
-/*width: 374px;
-height: 100px;*/
+
+}
+
+
+.group82-users {
+  top: -0.49895694851875305px;
+  left: 0.49896371364593506px;
+  width: 49px;
+  height: 49px;
+  position: absolute;
+
+
+
+
+
+
+}
+
+
+.group82-text39 {
+  top: 149.68817138671875px;
+  left: 39.9168701171875px;
+  color: rgba(255, 255, 255, 1);
+  width: 256px;
+  height: auto;
+  position: absolute;
+  font-size: 23.950103759765625px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+
+
+}
+
+
+.group82-group321 {
+  top: 264px;
+  left: 39.92px;
+  height: 21.95px;
+  width: 101.79px;
   display: flex;
   position: absolute;
-  border-radius: 20px;
-  padding: 20px 250px 20px 20px;
-  background-color: rgba(196, 196, 196, 0.20000000298023224);
+  align-items: flex-start;
+  direction: row;
+  flex-shrink: 1;
+}
+
+
+.group82-text44 {
+
+
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  height: auto;
+  position: absolute;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+
 
 }
 
-.desktop-group20 {
+
+.group82-arrowright1 {
+
+
+  left: 151.92px;
+  position: absolute;
+
 
 }
 
-.rectangle9182,.rectangle10183,.rectangle11184{
 
+/*********    <!---------第三個框框------>******************/
+
+
+.group82-group37 {
+  top: 365px;
+  left: 1017px;
+  width: 349.2723388671875px;
+  height: 349.2723388671875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+
+
+}
+
+
+.group82-group312 {
+  display: flex;
+  align-items: flex-start;
+  border-radius: 49.896px;
+  border: 2.994px solid rgba(255, 255, 255, 0.50);
+  justify-content: start;
+  width: 349.272px;
+  height: 349.272px;
+  flex-shrink: 0;
  
-  padding: 10px 5px;       
-  border-radius: 20px;
+
+
+
 
 }
-
-
-
-
-.desktop-text55 {
-color: rgba(255, 255, 255, 1);
-
-position: absolute;
-font-size: 24px;
-font-style: Bold;
-text-align: left;
-font-family: Montserrat;
-font-weight: 700;
-}
-.desktop-text57 {
-top: 44px;
-color: rgba(23, 194, 236, 1);
-position: absolute;
-font-size: 24px;
-font-style: Bold;
-text-align: left;
-font-family: Montserrat;
-font-weight: 700;
-
-}
-
-
-/* <!---3.下面的icon-->  */
-.desktop-group16 {
-
-  top: 864px;
-  left: 70px;
-  width: 1299px;
-  height: 110px;
-  display: flex;
+.group82-shield2 {
+  width: 48.898px;
+  height: 48.898px;
+  flex-shrink: 0;
+  margin: 20px;
   position: absolute;
-  flex-shrink: 1;
-  align-items: flex-start;
-  padding: 20px 25px;
-  border-radius: 20px;
-  background-color: rgb(79, 90, 93);
+
+
 }
+.group82-thermometer {
 
-/* <!--group11(10+61 41+43)--->*/
-.desktop-group11 {
 
-  top: 40px;
-  left: 70px;
-  width: 300px;
-  height: 58px;
-  display: flex;
+  top: -0.49895694851875305px;
+  left: 0.49896371364593506px;
+  width: 49px;
+  height: 49px;
   position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  /*background-color: rgb(112, 41, 122);*/
-
-
 }
 
-.desktop-group10 {
-  top: 0px;
-  left: 70px;
-  width: 246.80999755859375px;
-  height: 58px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 1;
 
-
-
-}
-
-.desktop-group61 {
-  left: 0px;
-  width: 33px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(196, 196, 196, 0.10000000149011612);
-}
-
-.desktop-text41 {
-
-  color: rgba(255, 255, 255, 0.5);
+.group82-text46 {
+  top: 149.68817138671875px;
+  left: 39.9168701171875px;
+  color: rgba(255, 255, 255, 1);
+  width: 256px;
   height: auto;
-  font-size: 24px;
-
-  text-align: left;
-  font-family: Montserrat;
-
-
-
-}
-
-.desktop-text43 {
-  color: rgb(255, 255, 255, 1);
-  height: auto;
-  font-size: 24px;
-
-  text-align: left;
-  font-family: Montserrat;
-
   position: absolute;
-  /* Change to absolute positioning */
-  top: 30px;
-
-}
-
-
-/* <!--group12(101+71  text45+47)--->*/
-
-.desktop-group12 {
-
-  top: 40px;
-  left: 366px;
-  width: 300px;
-  height: 58px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  /*   background-color: red;*/
-
-
-}
-
-.desktop-group101 {
-  top: 0px;
-  left: 70px;
-  width: 246.80999755859375px;
-  height: 58px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 1;
-  /* background-color:paleturquoise;*/
-
-
-
-}
-
-.desktop-group71 {
-  left: 0px;
-  width: 33px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(196, 196, 196, 0.10000000149011612);
-}
-
-.desktop-text45 {
-
-  color: rgba(255, 255, 255, 0.5);
-  height: auto;
-  font-size: 24px;
-  text-align: left;
-  font-family: Montserrat;
-
-}
-
-.desktop-text47 {
-  color: rgb(255, 255, 255, 1);
-  height: auto;
-  font-size: 24px;
-
-  text-align: left;
-  font-family: Montserrat;
-
-  position: absolute;
-  top: 30px;
-
-}
-
-
-/* <!--group13(102+9 text49 51)--->*/
-.desktop-group13 {
-
-  top: 40px;
-  left: 707.4553833007812px;
-  width: 232px;
-  height: 58px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-
-
-
-}
-
-.desktop-group102 {
-  top: 0px;
-  left: 70px;
-  width: 264px;
-  height: 58px;
-  display: flex;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 1;
-  /* background-color:paleturquoise;*/
-
-
-
-}
-
-.desktop-group9 {
-
-  left: 0px;
-  width: 33px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 1;
-  background-color: rgba(196, 196, 196, 0.10000000149011612);
-}
-
-.desktop-text49 {
-
-  color: rgba(255, 255, 255, 0.5);
-  height: auto;
-  font-size: 24px;
-  text-align: left;
-  font-family: Montserrat;
-}
-
-.desktop-text51 {
-  top: 29px;
-  color: rgb(255, 255, 255, 1);
-  height: auto;
-  font-size: 24px;
-  text-align: left;
-  font-family: Montserrat;
-
-  position: absolute;
-
-}
-
-/*<!-----------3.3desktop-Submit text53------->*/
-.desktop-Submit {
-  gap: 10px;
-  top: 40px;
-  left: 1117px;
-  display: flex;
-  padding: 20px 25px;
-  position: absolute;
-  align-items: flex-start;
-  background-color: rgba(23, 194, 236, 1);
-
-  border-radius: 20px;
-
-}
-
-.desktop-text53 {
-  color: rgb(255, 255, 255);
-  height: auto;
-  font-size: 24px;
+  font-size: 23.950103759765625px;
   font-style: Bold;
   text-align: left;
   font-family: Montserrat;
   font-weight: 700;
+
+
+}
+
+
+.group82-group322 {
+  top: 264px;
+  left: 39.92px;
+  height: 21.95px;
+  width: 101.79px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  direction: row;
+  flex-shrink: 1;
+}
+
+
+.group82-text48 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  height: auto;
+  position: absolute;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+
+.group82-arrowright2 {
+  left: 151.92px;
+  position: absolute;
 }

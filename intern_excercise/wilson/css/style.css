@@ -1,0 +1,188 @@
+.color-blue {
+    color: #17C2EC;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.color-gray {
+    color: rgba(255, 255, 255, .5);
+}
+
+.font-2lg {
+    font-size: 48px;
+}
+
+.font-lg {
+    font-size: 32px;
+}
+
+.font-md {
+    font-size: 24px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.mb-3 {
+    margin-bottom: 24px;
+}
+
+.ml-3 {
+    margin-left: 24px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.block {
+    display: block;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+.h-100px {
+    height: 100px;
+}
+
+.exercise {
+    max-width: 1920px;
+    margin: 0 auto;
+    background: url('../images/kv-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.exercise-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.nav {
+    padding: 20px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-nav-ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.header-nav-ul>li {
+    margin: 0 10px;
+}
+
+.check-status {
+    border-radius: 10px;
+    padding: 20px;
+    background: rgba(287, 281, 281, 0.2);
+}
+
+.kv {
+    display: flex;
+    padding: 30px 20px 0 20px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.word-part {
+    max-width: 500px;
+}
+
+.img-part {
+    display: flex;
+    align-items: center;
+}
+
+.img-container {
+    position: relative;
+}
+
+
+.card-img {
+    background: #fff;
+    border-radius: 5px;
+}
+
+.top-50 {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.left--50px {
+    left: -50px;
+}
+
+.right--50px {
+    right: -50px;
+}
+
+.left-0 {
+    left: -20;
+}
+
+.bottom--50px {
+    bottom: -50px;
+}
+
+.button-group {
+    gap: 20px;
+    display: flex;
+}
+
+.Vaccine-button {
+    background: #17C2EC;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+}
+
+.Centre-button {
+    display: block;
+    border-radius: 5px;
+    background: transparent;
+    border: #17C2EC 2px solid;
+    padding: 18px;
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+}
+
+.submit-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(211, 211, 211, .5);
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.benefit-bar {
+    display: flex;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.submitBtn {
+    background: #17C2EC;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+}

@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>202307figma</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+  body {
+    justify-content: center;
+  }
+
+  .desktop-container {
+    width: 100%;
+    height: 1440px;
+    background-color: #0B153C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /************1.0********************/
+  .desktop-group1 {
+    gap: 10px;
+    /****************為什麼沒辦法有間距******************/
+  }
+
+  .desktop-text01 {
+
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+    font-style: Bold;
+    font-family: Montserrat;
+    font-weight: 700;
+
+  }
+
+  .desktop-text02 {
+    display: flex;
+    gap: 10px;
+
+    /*第三種方法*/
+    /* width: 400px;
+  flex-direction: row;
+  justify-content: space-between; */
+    /*第三種方法*/
+    /* wilson add*/
+    /* gap: 10px; */
+    /* wilson add*/
+    /* Add right margin for spacing */
+  }
+
+  /* wilson add*/
+  .text-margin {
+    /* margin: 0 10px; */
+  }
+
+  /* wilson add*/
+  .desktop-frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 150px;
+  }
+
+
+
+
+  .desktop-text03,
+  .desktop-text04,
+  .desktop-text05,
+  .desktop-text06 {
+    color: rgba(255, 255, 255, 0.5);
+    height: auto;
+    font-size: 24px;
+    font-style: Medium;
+    /* margin-left: 280px;*/
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-weight: 500;
+
+  }
+
+  .desktop-text10 {
+    color: rgba(23, 194, 236, 1);
+    font-style: Bold;
+    font-weight: 700;
+    font-size: 32px;
+  }
+
+
+  /******************第二部分***********************/
+  .desktop-group444 {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  /************2.0文字********************/
+  .desktop-group4 {
+    gap: 20px;
+    width: 603px;
+    height: 354px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desktop-text12 {
+    color: rgba(23, 194, 236, 1);
+    height: auto;
+    /* position: absolute; */
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+
+  .desktop-text14 {
+    /* top: 296px; */
+    color: rgba(255, 255, 255, 0.699999988079071);
+    height: auto;
+    /* position: absolute; */
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+
+  .desktop-text19 {
+    /* top: 69px; */
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    /* position: absolute; */
+    font-size: 48px;
+    font-style: ExtraBold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 800;
+  }
+
+  .desktop-text20 {
+    color: rgba(255, 255, 255, 1);
+    gap: 10px;
+  }
+
+  .desktop-text27 {
+    /* top: 69px; */
+    color: rgba(255, 255, 255, 1);
+    /* height: auto; */
+    /* position: absolute; */
+    font-size: 48px;
+    font-style: ExtraBold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 800;
+  }
+
+  .desktop-text28 {
+    color: rgba(255, 255, 255, 1);
+  }
+
+
+
+  /****************2.1button**************/
+
+  .desktop-group7 {
+
+    /*top: 615px;
+    left: 70px;*/
+    width: 603px;
+    height: 69px;
+    display: flex;
+    flex-shrink: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: aqua;*/
+    gap: 10px;
+  }
+
+  .desktop-GetVaccine {
+    /* gap: 10px;
+    top: 0px;
+    left: 0px;*/
+    display: flex;
+    padding: 20px 25px;
+    /*position: absolute;*/
+    align-items: flex-start;
+    border-radius: 20px;
+    background-color: rgba(23, 194, 236, 1);
+  }
+
+  .desktop-text35 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+
+  }
+
+  .desktop-HelpCentre {
+    /*gap: 10px;
+    top: 0px;
+    left: 220px;*/
+    display: flex;
+    padding: 20px 25px;
+    /* position: absolute;*/
+    align-items: flex-start;
+    border-color: rgba(23, 194, 236, 1);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+
+  }
+
+  .desktop-text37 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+
+  }
+
+  /*<!--2.2右邊的圖------>*/
+
+  .desktop-group222 {
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    /*background-color: aqua;*/
+  }
+
+  .unsplashwnsewhmhxho {}
+
+  .desktop-group17 {
+    justify-content: flex-start;
+    width: 80px;
+    height: 80px;
+  }
+
+  .doctortakingsafetymeasuresforcorona29969402495209175 {
+    display: flex;
+    /*top: 234px;
+    left: -30px;*/
+    padding: 10px 5px;
+    position: relative;
+    left: 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .desktop-group18 {
+    justify-content: flex-start;
+    width: 80px;
+    height: 80px;
+
+  }
+
+  .coronavirus29969522495219178 {
+    /* top: 234px;
+    right: -30px;*/
+    position: relative;
+    left: -25px;
+    display: flex;
+    padding: 10px 5px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+
+
+
+
+
+  .desktop-group20 {}
+
+  /*<!---------3.0醫生們------------->*/
+  .desktop-group21 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px 250px 20px 20px;
+    background-color: rgba(196, 196, 196, 0.20000000298023224);
+    left: 250px;
+    top: -80px;
+    position: relative;
+
+
+  }
+
+  .rectangle9182,
+  .rectangle10183,
+  .rectangle11184 {
+    padding: 10px 5px;
+    border-radius: 20px;
+
+  }
+
+  .desktop-text55 {
+    color: rgba(255, 255, 255, 1);
+
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+
+  .desktop-text57 {
+
+    color: rgba(23, 194, 236, 1);
+    position: relative;
+    left: 50px;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+
+  }
+
+  /* <!---3.下面的icon-->  */
+  .desktop-group16 {
+    /*top: 864px;
+    left: 70px;*/
+    width: 1299px;
+    height: 110px;
+    display: flex;
+    flex-shrink: 1;
+    align-items: flex-start;
+    padding: 20px 25px;
+    border-radius: 20px;
+    background-color: rgb(79, 90, 93);
+    flex-direction: row;
+  }
+
+  /* <!--group11(10+61 41+43)--->*/
+  .desktop-group11 {
+    width: 300px;
+    height: 58px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgb(112, 41, 122);
+  }
+
+  .desktop-group10 {
+    top: 0px;
+    left: 70px;
+    width: 246.80999755859375px;
+    height: 58px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+
+  .desktop-group61 {
+    width: 33px;
+    display: flex;
+    position: relative;
+    right: 250px;
+    flex-shrink: 1;
+    background-color: rgba(196, 196, 196, 0.10000000149011612);
+  }
+
+  .desktop-text41 {
+
+    color: rgba(255, 255, 255, 0.5);
+    height: auto;
+    font-size: 24px;
+    text-align: left;
+    font-family: Montserrat;
+  }
+
+  .desktop-text43 {
+    color: rgb(255, 255, 255, 1);
+    height: auto;
+    font-size: 24px;
+    text-align: left;
+    font-family: Montserrat;
+    position: absolute;
+    /* Change to absolute positioning */
+    top: 30px;
+
+  }
+
+
+  /* <!--group12(101+71  text45+47)--->*/
+
+  .desktop-group12 {
+    top: 10px;
+    width: 300px;
+    height: 58px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: red;
+  }
+
+  .desktop-group101 {
+    top: 0px;
+    left: 70px;
+    width: 246.80999755859375px;
+    height: 58px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+    /* background-color:paleturquoise;*/
+
+
+
+  }
+
+  .desktop-group71 {
+    left: 0px;
+    width: 33px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(196, 196, 196, 0.10000000149011612);
+  }
+
+  .desktop-text45 {
+
+    color: rgba(255, 255, 255, 0.5);
+    height: auto;
+    font-size: 24px;
+    text-align: left;
+    font-family: Montserrat;
+
+  }
+
+  .desktop-text47 {
+    color: rgb(255, 255, 255, 1);
+    height: auto;
+    font-size: 24px;
+
+    text-align: left;
+    font-family: Montserrat;
+
+    position: absolute;
+    top: 30px;
+
+  }
+
+
+  /* <!--group13(102+9 text49 51)--->*/
+  .desktop-group13 {
+
+    top: 40px;
+    left: 707.4553833007812px;
+    width: 232px;
+    height: 58px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+
+
+
+  }
+
+  .desktop-group102 {
+    top: 0px;
+    left: 70px;
+    width: 264px;
+    height: 58px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 1;
+    /* background-color:paleturquoise;*/
+
+
+
+  }
+
+  .desktop-group9 {
+
+    left: 0px;
+    width: 33px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(196, 196, 196, 0.10000000149011612);
+  }
+
+  .desktop-text49 {
+
+    color: rgba(255, 255, 255, 0.5);
+    height: auto;
+    font-size: 24px;
+    text-align: left;
+    font-family: Montserrat;
+  }
+
+  .desktop-text51 {
+    top: 29px;
+    color: rgb(255, 255, 255, 1);
+    height: auto;
+    font-size: 24px;
+    text-align: left;
+    font-family: Montserrat;
+
+    position: absolute;
+
+  }
+
+  /*<!-----------3.3desktop-Submit text53------->*/
+  .desktop-Submit {
+    gap: 10px;
+    top: 40px;
+    left: 1117px;
+    display: flex;
+    padding: 20px 25px;
+    position: absolute;
+    align-items: flex-start;
+    background-color: rgba(23, 194, 236, 1);
+
+    border-radius: 20px;
+
+  }
+
+  .desktop-text53 {
+    color: rgb(255, 255, 255);
+    height: auto;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Montserrat;
+    font-weight: 700;
+  }
+</style>
+
+<body>
+  <div class="desktop-container">
+    <!---1.選單--->
+    <div class="desktop-group1">
+      <div class="desktop-frame1">
+        <div class="desktop-text01">
+          <p>Vaccination.ng</p>
+        </div>
+        <div class="desktop-text02">
+          <p class="desktop-text03 text-margin">Home</p>
+          <p class="desktop-text04 text-margin">Services</p>
+          <p class="desktop-text05 text-margin">Schedule</p>
+          <p class="desktop-text06 text-margin">Contact us</p>
+        </div>
+
+        <div class="desktop-group2">
+          <div class="desktop-frame2">
+            <p class="desktop-text10">Check Status</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-------第二部分------->
+    <!-------文字（左）--------->
+    <div class="desktop-group444">
+      <div class="desktop-group4">
+        <span class="desktop-text12">
+          <span>Get Vaccinated. Boost your Immune System</span>
+        </span>
+        <span class="desktop-text19">
+          <span class="desktop-text20">
+            <span>COVID-19 Vaccination</span>
+            <br />
+            <span>Got Easier With,</span>
+            <br />
+            <span></span>
+          </span>
+          <span>Vaccination.ng</span>
+        </span>
+        <span class="desktop-text14">
+          <span>
+            <span>Vaccination.ng will help you find the nearest</span>
+            <br />
+            <span>
+              centre for vaccination, in all 36 states in Nigeria.
+            </span>
+          </span>
+        </span>
+        <!---2.1 button*2-->
+        <div class="desktop-group7">
+          <div class="desktop-GetVaccine">
+            <span class="desktop-text35"><span>Get Vaccine</span></span>
+          </div>
+          <div class="desktop-HelpCentre">
+            <span class="desktop-text37"><span>Help Centre</span></span>
+          </div>
+        </div>
+      </div>
+
+
+      <!---2.2 圖片-->
+      <div class="desktop-group222">
+
+        <div class="desktop-group17">
+          <img src="public/external/doctortakingsafetymeasuresforcorona29969402495209175-s7kl-200h.png"
+            class="doctortakingsafetymeasuresforcorona29969402495209175" />
+        </div>
+        <img src="public/external/unsplashwnsewhmhxho172-q35q-600w.png" class="unsplashwnsewhmhxho" />
+        <div class="desktop-group18">
+          <img src="public/external/coronavirus29969522495219178-phbe-200h.png" class="coronavirus29969522495219178" />
+        </div>
+      </div>
+    </div>
+
+    <!----------->
+    <div class="desktop-group21">
+      <div class="desktop-group20">
+        <img src="public/external/rectangle9182-hk4k-200h.png" class="rectangle9182" />
+        <img src="public/external/rectangle10183-u8a9-200h.png" class="rectangle10183" />
+        <img src="public/external/rectangle11184-i1e-200h.png" class="rectangle11184" />
+      </div>
+      <div class="desktop-group19">
+        <span class="desktop-text55"><span>20+</span></span>
+        <span class="desktop-text57"><span>Specialists</span></span>
+      </div>
+    </div>
+
+
+    <!---3.下面的icon-->
+    <footer>
+
+
+      <div class="desktop-group16">
+        <div class="desktop-group15">
+
+          <div class="desktop-group14">
+            <!--group11(10+61)--->
+            <div class="desktop-group11">
+              <div class="desktop-group10">
+                <span class="desktop-text41"><span>Location</span></span>
+                <span class="desktop-text43">
+                  <span>Ikeja Lagos, Nigeria</span>
+                </span>
+              </div>
+              <div class="desktop-group61">
+                <img src="public/external/mappin147-d9u.svg" class="desktop-mappin" />
+              </div>
+            </div>
+            <!--group12(101+71)--->
+            <div class="desktop-group12">
+              <div class="desktop-group101">
+                <span class="desktop-text45">Date</span>
+                <span class="desktop-text47">
+                  <span>29 February, 2022</span>
+                </span>
+              </div>
+              <div class="desktop-group71">
+                <img src="public/external/calendar156-i3ws.svg" class="desktop-calendar" />
+              </div>
+            </div>
+            <!--group13(102+9)--->
+            <div class="desktop-group13">
+              <div class="desktop-group102">
+                <span class="desktop-text49">
+                  <span>Vaccine Type</span>
+                </span>
+                <span class="desktop-text51">Mordena</span>
+              </div>
+              <div class="desktop-group9">
+                <img src="public/external/shield167-1nvg.svg" class="desktop-shield" />
+              </div>
+            </div>
+          </div>
+          <div class="desktop-Submit">
+            <span class="desktop-text53">Submit</span>
+          </div>
+        </div>
+      </div>
+  </div>
+  </footer>
+  </div>
+</body>
+
+</html>

@@ -2,11 +2,17 @@ overflow-x: hidden;
 
 .group82-container {
   width: 100%;
+<<<<<<< HEAD
+=======
+  height: 1440px;
+  background-color: #0B153C;
+>>>>>>> 7f3e352e27417e3bce0eb8c2aa9fb46fbfff9b80
   display: flex;
   overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+<<<<<<< HEAD
 }
 
 
@@ -93,10 +99,19 @@ overflow-x: hidden;
   height: auto;
   position: absolute;
   font-size: 24px;
+=======
+
+}
+
+/************1.0********************/
+.desktop-text01 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 32px;
+>>>>>>> 7f3e352e27417e3bce0eb8c2aa9fb46fbfff9b80
   font-style: Bold;
-  text-align: left;
   font-family: Montserrat;
   font-weight: 700;
+<<<<<<< HEAD
 }
 
 
@@ -106,6 +121,118 @@ overflow-x: hidden;
   width: 1280px;
   height: 80px;
   border-radius: 20px;
+=======
+}
+
+.desktop-text02 {
+  display: flex;
+  /*第三種方法*/
+  /* width: 400px;
+  flex-direction: row;
+  justify-content: space-between; */
+  /*第三種方法*/
+  /* wilson add*/
+  /* gap: 10px; */
+  /* wilson add*/
+  /* Add right margin for spacing */
+}
+
+/* wilson add*/
+.text-margin {
+  /* margin: 0 10px; */
+}
+
+/* wilson add*/
+.desktop-frame1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  /* align-items: flex-start; */
+  /* gap: 25px;
+
+  top: 17px;
+  left: 401px;
+  flex-shrink: 1;
+   */
+
+}
+
+
+
+
+.desktop-text03,
+.desktop-text04,
+.desktop-text05,
+.desktop-text06 {
+  color: rgba(255, 255, 255, 0.5);
+  height: auto;
+  font-size: 24px;
+  font-style: Medium;
+  /* margin-left: 280px;*/
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-weight: 500;
+  /* margin-right: 80px;*/
+  /* Add right margin for spacing */
+}
+
+/* .desktop-text03 {
+  position: absolute;
+  left: 400px;
+
+}
+
+.desktop-text04 {
+  position: absolute;
+  left: 600px;
+
+}
+
+.desktop-text05 {
+
+  position: absolute;
+  left: 800px;
+}
+
+.desktop-text06 {
+  position: absolute;
+  left: 1000px;
+
+} */
+
+.desktop-frame2 {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* align-items: flex-end; */
+  /* position: absolute; */
+  /* Add absolute positioning */
+  /* top: -10px; */
+  /* Position from the top */
+  /* right: 0; */
+
+  /* Position from the right */
+  /* margin-top: 25px; */
+  /* margin-right: 60px; */
+  /* Add right margin for spacing */
+
+
+}
+
+.desktop-text10 {
+  color: rgba(23, 194, 236, 1);
+  font-style: Bold;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/************2.0文字********************/
+.desktop-group4 {
+  top: 211px;
+  left: 70px;
+  width: 603px;
+  height: 354px;
+>>>>>>> 7f3e352e27417e3bce0eb8c2aa9fb46fbfff9b80
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -442,14 +569,41 @@ background-color: rgba(196, 196, 196, 0.05000000074505806)*/
   height: 349.2723388671875px;
   display: flex;
   position: absolute;
+<<<<<<< HEAD
   align-items: flex-start;
   flex-shrink: 1;
+=======
+
+
+
+
+>>>>>>> 7f3e352e27417e3bce0eb8c2aa9fb46fbfff9b80
 }
 
 
 .group82-group311 {
 
 
+<<<<<<< HEAD
+=======
+.doctortakingsafetymeasuresforcorona29969402495209175 {
+  display: flex;
+  top: 234px;
+  left: -30px;
+  padding: 10px 5px;
+  position: absolute;
+
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+
+
+
+}
+
+.coronavirus29969522495219178 {
+  top: 234px;
+
+>>>>>>> 7f3e352e27417e3bce0eb8c2aa9fb46fbfff9b80
   display: flex;
   align-items: flex-start;
   border-radius: 49.896px;
@@ -468,6 +622,7 @@ background-color: rgba(196, 196, 196, 0.05000000074505806)*/
   margin: 20px;
   position: absolute;
 
+<<<<<<< HEAD
 
 }
 
@@ -509,6 +664,13 @@ background-color: rgba(196, 196, 196, 0.05000000074505806)*/
   left: 39.92px;
   height: 21.95px;
   width: 101.79px;
+=======
+.desktop-group21 {
+  top: 517px;
+  left: 0px;
+  /*width: 374px;
+height: 100px;*/
+>>>>>>> 7f3e352e27417e3bce0eb8c2aa9fb46fbfff9b80
   display: flex;
   position: absolute;
   align-items: flex-start;
@@ -532,6 +694,7 @@ background-color: rgba(196, 196, 196, 0.05000000074505806)*/
 
 }
 
+<<<<<<< HEAD
 
 .group82-arrowright1 {
 
@@ -539,10 +702,16 @@ background-color: rgba(196, 196, 196, 0.05000000074505806)*/
   left: 151.92px;
   position: absolute;
 
+=======
+.desktop-group20 {}
+>>>>>>> 7f3e352e27417e3bce0eb8c2aa9fb46fbfff9b80
 
-}
+.rectangle9182,
+.rectangle10183,
+.rectangle11184 {
 
 
+<<<<<<< HEAD
 /*********    <!---------第三個框框------>******************/
 
 
@@ -580,6 +749,48 @@ background-color: rgba(196, 196, 196, 0.05000000074505806)*/
   height: 48.898px;
   flex-shrink: 0;
   margin: 20px;
+=======
+  padding: 10px 5px;
+  border-radius: 20px;
+
+}
+
+
+
+
+.desktop-text55 {
+  color: rgba(255, 255, 255, 1);
+
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.desktop-text57 {
+  top: 44px;
+  color: rgba(23, 194, 236, 1);
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 700;
+
+}
+
+
+/* <!---3.下面的icon-->  */
+.desktop-group16 {
+
+  top: 864px;
+  left: 70px;
+  width: 1299px;
+  height: 110px;
+  display: flex;
+>>>>>>> 7f3e352e27417e3bce0eb8c2aa9fb46fbfff9b80
   position: absolute;
 
 

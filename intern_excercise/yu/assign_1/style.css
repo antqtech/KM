@@ -233,7 +233,35 @@ body {
     display: flex;
     border: 1px solid black;
 }
+/* 4部分 */
+.section-4 {
+    margin: 0 auto; /* 讓容器水平置中 */
+    max-width: 1920px;
+    width: 80%;
+}
+.section-4-head {
+    display: flex;
 
+}
+.section-4-icon {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.section-4-small{
+    display: flex;
+}
+
+.section-4-big {
+    height: 300px;
+}
+
+/* 5部分 */
+
+.section-5{
+    display: flex;
+}
 
 /* 小於等於 375px 的寬度尺寸 */
 @media screen and (max-width: 400px) {

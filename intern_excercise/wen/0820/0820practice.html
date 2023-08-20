@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>顧客關係管理系統</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: right;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        form label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        form input[type="text"],
+        form select,
+        form input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button[type="submit"],
+        button {
+            padding: 8px 15px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        button {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        顧客關係管理系統 | <a href="#">登出</a>
+    </header>
+    <div class="container">
+        <h1>公司資訊</h1>
+        <form>
+            <label for="companyName">公司名稱:</label>
+            <input type="text" id="companyName" name="companyName">
+            <label for="location">所在地:</label>
+            <select id="location" name="location">
+                <option value="location1">地點1</option>
+                <option value="location2">地點2</option>
+                <!-- 其他選項 -->
+            </select>
+            <label for="customerGrade">客戶分級:</label>
+            <select id="customerGrade" name="customerGrade">
+                <option value="grade1">等級1</option>
+                <option value="grade2">等級2</option>
+                <!-- 其他選項 -->
+            </select>
+            <label for="lastContactDate">最近聯繫日期:</label>
+            <input type="date" id="lastContactDate" name="lastContactDate">
+            <button type="submit">查詢</button>
+        </form>
+
+        <button onclick="redirectToNewCompanyPage()">新增公司資料</button>
+        
+        <h2>公司資料表格</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>公司名稱</th>
+                    <th>負責人</th>
+                    <th>連絡電話</th>
+                    <th>Email</th>
+                    <th>所在地</th>
+                    <th>來源</th>
+                    <th>開發日期</th>
+                    <th>最近聯繫日期</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ABC 公司</td>
+                    <td>張三</td>
+                    <td>123-456-7890</td>
+                    <td>abc@example.com</td>
+                    <td>台北市</td>
+                    <td>網站</td>
+                    <td>2023-01-15</td>
+                    <td>2023-07-20</td>
+                    <td>
+                        <button onclick="modifyGrade(this)">修改分級</button>
+                        <button onclick="modifyData(this)">修改資料</button>
+                        <button onclick="viewContactHistory(this)">聯絡紀錄</button>
+                    </td>
+                </tr>
+                <!-- 其他公司資料行 -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        function redirectToNewCompanyPage() {
+            window.location.href = "new_company.html"; // 導向到新增公司資料頁面
+        }
+
+    </script>
+</body>
+</html>

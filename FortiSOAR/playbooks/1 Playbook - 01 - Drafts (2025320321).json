@@ -1,0 +1,141 @@
+{
+  "type": "workflow_collections",
+  "data": [
+    {
+      "@context": "/api/3/contexts/WorkflowCollection",
+      "@type": "WorkflowCollection",
+      "name": "01 - Drafts",
+      "description": null,
+      "visible": true,
+      "image": null,
+      "uuid": "4dc865c8-012e-4326-8be5-252b723ea734",
+      "id": 9,
+      "createDate": 1711017812.052296,
+      "modifyDate": 1728384121.624015,
+      "deletedAt": null,
+      "importedBy": [
+        {
+          "apiName": "sOARFramework",
+          "name": "SOAR Framework",
+          "version": "3.0.0"
+        }
+      ],
+      "recordTags": [],
+      "workflows": [
+        {
+          "@type": "Workflow",
+          "triggerLimit": null,
+          "name": "send mail",
+          "aliasName": null,
+          "tag": null,
+          "description": null,
+          "isActive": true,
+          "debug": false,
+          "singleRecordExecution": false,
+          "remoteExecutableFlag": false,
+          "parameters": [],
+          "synchronous": false,
+          "lastModifyDate": 1742455085,
+          "collection": "/api/3/workflow_collections/4dc865c8-012e-4326-8be5-252b723ea734",
+          "versions": [],
+          "triggerStep": "/api/3/workflow_steps/558d58f9-fa0a-4419-acaf-df366450e01d",
+          "steps": [
+            {
+              "@type": "WorkflowStep",
+              "name": "Send Mail",
+              "description": null,
+              "arguments": {
+                "name": "SMTP",
+                "config": "88c3d39c-2fa9-4731-b00d-29815008f17c",
+                "params": {
+                  "body": "<p>TEST second</p>",
+                  "subject": "FortiSOAR playbook send mail testttt",
+                  "iri_list": "",
+                  "cc_recipients": "",
+                  "to_recipients": "abc20200130abc@gmail.com",
+                  "bcc_recipients": ""
+                },
+                "version": "2.5.0",
+                "connector": "smtp",
+                "operation": "send_email",
+                "operationTitle": "Send Email",
+                "pickFromTenant": false,
+                "step_variables": []
+              },
+              "status": null,
+              "top": "240",
+              "left": "280",
+              "stepType": "/api/3/workflow_step_types/0bfed618-0316-11e7-93ae-92361f002671",
+              "group": null,
+              "uuid": "675f2109-cf87-42dd-b868-3ba89f5e353a"
+            },
+            {
+              "@type": "WorkflowStep",
+              "name": "Start",
+              "description": null,
+              "arguments": {
+                "route": "d98ee147-1eaf-45d5-a055-3a2228c066e3",
+                "resources": [
+                  "alerts"
+                ],
+                "__triggerLimit": true,
+                "inputVariables": [],
+                "step_variables": {
+                  "input": {
+                    "params": [],
+                    "records": "{{vars.input.records}}"
+                  }
+                },
+                "triggerOnSource": true,
+                "displayConditions": {
+                  "alerts": {
+                    "sort": [],
+                    "limit": 30,
+                    "logic": "AND",
+                    "filters": []
+                  }
+                },
+                "executeButtonText": "Execute",
+                "noRecordExecution": true,
+                "showToasterMessage": {
+                  "visible": false,
+                  "messageVisible": true
+                },
+                "triggerOnReplicate": false,
+                "singleRecordExecution": false
+              },
+              "status": null,
+              "top": "140",
+              "left": "100",
+              "stepType": "/api/3/workflow_step_types/f414d039-bb0d-4e59-9c39-a8f1e880b18a",
+              "group": null,
+              "uuid": "558d58f9-fa0a-4419-acaf-df366450e01d"
+            }
+          ],
+          "routes": [
+            {
+              "@type": "WorkflowRoute",
+              "name": "Start -> Send Mail",
+              "targetStep": "/api/3/workflow_steps/675f2109-cf87-42dd-b868-3ba89f5e353a",
+              "sourceStep": "/api/3/workflow_steps/558d58f9-fa0a-4419-acaf-df366450e01d",
+              "label": null,
+              "isExecuted": false,
+              "group": null,
+              "uuid": "2fb06508-d1a6-4f30-a760-5d4bd4350291"
+            }
+          ],
+          "groups": [],
+          "priority": "/api/3/picklists/2b563c61-ae2c-41c0-a85a-c9709585e3f2",
+          "uuid": "29c466fa-f32a-4d01-98fa-94d9cf9c27be",
+          "id": 1540,
+          "owners": [],
+          "isPrivate": false,
+          "deletedAt": null,
+          "importedBy": [],
+          "recordTags": []
+        }
+      ]
+    }
+  ],
+  "exported_tags": []
+}
